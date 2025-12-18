@@ -1,0 +1,62 @@
+Programming Assignment #2
+ 
+
+We will be implementing a program to handle inventory for a car dealership.
+
+(1) The base class vehicle contains the following private data:
+
+·       string make – “Chevrolet”, “Ford”, “Toyota”, etc.
+
+·       string model
+
+·       string color
+
+·       integer mpg
+
+·       double msrp
+
+ 
+
+Create a constructor and the appropriate methods to use this class.
+
+ 
+
+There are derived classes: Car, and Truck
+
+ 
+
+(2) The Car class contains the following private data:
+
+·       Boolean spareInTrunk 
+
+·       Boolean rearWindshieldWiper
+
+ 
+
+Create a constructor and the appropriate methods to use this class.
+
+ 
+
+(3) The Truck class contains the following private data:
+
+·       Boolean sidePanelStorage 
+
+·       Boolean autoReleaseTailgate
+
+ 
+
+Create a constructor and the appropriate methods to use this class.
+
+ 
+
+(4) The Menu system should allow users to:
+
+ 
+
+·       Add a car or truck to inventory
+
+·       Print list of current inventory
+
+·       Search, and Print list of cars, or trucks, by make, or model¸ or color
+
+·       Print details about a specific car or truck

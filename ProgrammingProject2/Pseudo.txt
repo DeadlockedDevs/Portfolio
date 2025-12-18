@@ -1,0 +1,30 @@
+Classes:
+1.Vehicle (base class)
+	Constructor
+	Get/set make
+	Get/set model
+	Get/set color
+	Get/set mpg 
+	Get/set msrp
+	printDetails
+2.	Car (inherits vehicle)
+Constructor
+Get/set spareInTrunk
+Get/set rearWindshieldWiper
+printDetails
+3.	Truck (inherits vehicle)
+Constructor
+Get/set sidePanelStorage
+Get/set autoReleaseTailgate
+printDetails
+4.	Main.cpp
+Maintain a list of vehicles as inventory
+Display menu
+	Add Car or Truck
+	Print Full inventory
+	Search inventory by make, model, or color
+	Print details of a specific vehicle
+		Exit
+	Based on user selection perform actions using the classes and inventory list
+	Display menu again unless exit option is chosen
+=
